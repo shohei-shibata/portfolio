@@ -1,0 +1,45 @@
+body {
+	background-color: #fff;
+	color: #222;
+	font-size: calc(12px + 0.75vw);
+	font-family: "Open Sans", serif;
+	line-height: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Bree Serif", serif;
+	margin: 1.5em 0;
+}
+
+h1 { 
+	font-size: 1.69em; 
+	line-height: calc(18px + 0.7em);
+}
+h2 { font-size: 1.616em; }
+h3 { font-size: 1.471em; }
+h4 { font-size: 1.3em; }
+h5 { font-size: 1.243em; }
+h6 { font-size: 1.132em; }
+p, a { font-size: 1em; }
+small { font-size: 0.769em; }
+
+main {
+	width: 100%;
+	max-width: 1140px;
+	margin: auto;
+}
+
+/* NAV */
+nav {
+	display: flex;
+}
+#nav-menu li {
+	display: inline;
+	list-style-type: none;
+}
+.nav-item {
+	display: inline;
+	margin-right: 1em;
+}
+
+/* FOOTER */

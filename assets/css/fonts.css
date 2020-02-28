@@ -1,0 +1,21 @@
+@font-face {
+	font-family: "Open Sans";
+	src: url(../webfonts/Open_Sans/OpenSans-Regular.ttf)
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url(../webfonts/Open_Sans/OpenSans-Bold.ttf)
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url(../webfonts/Open_Sans/OpenSans-Italic.ttf)
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Bree Serif";
+	src: url(../webfonts/Bree_Serif/BreeSerif-Regular.ttf)
+}

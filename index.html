@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<nav>
-			<img src='./assets/Logo.png'>
+			<img id="logo-img" src='./assets/Logo.png'>
 			<ul id="nav-menu">
 				<li><h5 class="nav-item"><a href="#">Home</a></h5></li>
 				<li><h5 class="nav-item"><a href="#">Services</a></h5></li>
@@ -16,28 +16,44 @@
 				<li><h5 class="nav-item"><a href="#">Contact</a></h5></li>
 			</ul>
 		</nav>
-		<main>
-			<section id="banner">
-				<h1>Hello!</h1>
-				
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<a target="_blank" href="#">Link</a>
-			</section>
-			<section id="services">
-			</section>
-			<section id="projects">
-			</section>
-			<section id="about">
-			</section>
-			<section id="contact">
-			</section>
+		<main class="flex-container-col">
+			<div class="section-container light flex-container-col">
+				<section id="banner">
+					<h1>Hello!</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<a target="_blank" href="#">Link</a>
+				</section>
+			</div>
+			<div class"transition-light-dark">
+				<div class="triangle-bottom-right"></div>
+			</div>
+			<div class="section-container dark flex-container-col">
+				<section id="services">
+					<h1>Services</h1>
+					<h5>Heading 1</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad     minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<h5>Heading 1</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad     minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<h5>Heading 1</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad     minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<a>Learn More</a>
+				</section>
+				<hr>
+				<section id="projects">
+					<h1>My Projects</h1>
+				</section>
+				<hr>
+				<section id="contact">
+					<h1>Contact Me</h1>
+				</section>
+			</div>
 		</main>
 		<footer>
 			<div id="footer-container">
 				<small>© 2020 Shohei Shibata. All rights reserved. </small>
 				<div>
-					<i class="fab fa-github"></i>
-					<i class="fab fa-linkedin"></i>
+					<i class="fab fa-github fa-2x footer-social-logo"></i>
+					<i class="fab fa-linkedin fa-2x footer-social-logo"></i>
 				</div>
 			</div>
 		</footer>

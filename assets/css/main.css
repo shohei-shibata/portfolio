@@ -45,6 +45,12 @@ hr {
 	justify-content: center;
 	align-items: center;
 }
+.flex-container-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
 
 /* SECTIONS */
 
@@ -117,6 +123,23 @@ nav {
 
 section#banner { max-width: 800px;  }
 section#banner h1 { text-transform: none; }
+
+/* PROJECTS */
+
+.project-subsection {
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 3em;
+}
+.project-subsection-img {
+	width: 38%;
+	min-width: 200px;
+}
+.project-subsection-description {
+	width: 55%;
+	min-width: 200px;
+}
 
 /* FOOTER */
 

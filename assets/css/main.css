@@ -52,6 +52,27 @@ hr {
 	align-items: center;
 }
 
+
+/* BUTTONS */
+
+.btn {
+	font-family: "Bree Serif", serif;
+	font-size: 1.243em; 
+	text-transform: uppercase;
+	color: #fff;
+	background-color: transparent;
+	border: solid 1px #D89F31;
+	border-radius: 2px;
+	padding: 0.5em 3em;
+}
+.btn:hover, 
+.btn:focus {
+	cursor: pointer;
+	background-color: #D89F31;
+	/*background-color: transparent;*/
+}
+
+
 /* SECTIONS */
 
 main {
@@ -124,7 +145,9 @@ nav {
 section#banner { max-width: 800px;  }
 section#banner h1 { text-transform: none; }
 
+
 /* PROJECTS */
+
 
 .project-subsection {
 	align-items: flex-start;
@@ -139,6 +162,43 @@ section#banner h1 { text-transform: none; }
 .project-subsection-description {
 	width: 55%;
 	min-width: 200px;
+}
+
+
+/* CONTACT FORM */
+
+
+#contact-form label { 
+	font-family: "Bree Serif", serif;
+	font-size: 1.243em; 
+	color: #eee;
+	opacity: 1;
+	text-transform: uppercase;
+}
+.contact-form-text,
+.contact-form-textarea {
+	background-color: transparent;
+	width: 100%;
+	margin-bottom: 1em;
+	border: solid 1px #eee;
+	font-family: "Open Sans", serif; /* TODO: Download and use LITERATA for paragraphs */
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #eee;
+	opacity: 1;
+	caret-color: #eee;
+}
+.contact-form-text {
+	border-left: none;
+	border-right: none;
+	border-top: none;
+}
+.contact-form-textarea {
+	resize: none;
+}
+.contact-form-submit {
+	display: block;
+	margin: auto;
 }
 
 /* FOOTER */

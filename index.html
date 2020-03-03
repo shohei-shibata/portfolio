@@ -70,10 +70,14 @@
 				<section id="contact">
 					<h1>Contact Me</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					<form>
-						<input type="text" name="name">
-						<input type="text" name="email">
-						<textarea name="comments" cols="50" rows="8"></textarea>
+					<form id="contact-form">
+						<label for="name">Name</label><br>
+						<input class="contact-form-text" type="text" name="name" required><br>
+						<label for="email">Email</label><br>
+						<input class="contact-form-text" type="text" name="email" required><br>
+						<label for="comments">Comments</label><br>
+						<textarea class="contact-form-textarea" name="comments" cols="50" rows="8" required></textarea><br>
+						<input type="submit" class="btn btn-primary contact-form-submit" value="Submit">
 					</form>
 				</section>
 			</div>

@@ -2,8 +2,7 @@ body {
 	background-color: #fff;
 	color: #222;
 	font-size: calc(12px + 0.75vw);
-	font-family: "Open Sans", serif; /* TODO: Download and use LITERATA for paragraphs */
-	line-height: 1.5em;
+	font-family: "Literata", serif; 
 	margin: 0;
 }
 
@@ -25,10 +24,15 @@ h6 { font-size: 1.132em; }
 p, a { 
 	font-size: 1em; 
 	margin: 0 0 1.5em 0;
+	letter-spacing: -0.002em;
 }
 small { font-size: 0.769em; }
 
-a { color: inherit; } 
+a { 
+	color: inherit; 
+	text-transform: uppercase;	
+	text-decoration-color: #D89F31;
+} 
 
 hr {
 	border: 0;
@@ -181,7 +185,7 @@ section#banner h1 { text-transform: none; }
 	width: 100%;
 	margin-bottom: 1em;
 	border: solid 1px #eee;
-	font-family: "Open Sans", serif; /* TODO: Download and use LITERATA for paragraphs */
+	font-family: "Literata", serif; 
 	font-size: 1em;
 	line-height: 1.5em;
 	color: #eee;

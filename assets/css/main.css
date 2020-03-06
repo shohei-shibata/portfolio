@@ -1,4 +1,5 @@
 body {
+	overflow-x: hidden;
 	background-color: #fff;
 	color: #222;
 	font-size: calc(12px + 0.75vw);
@@ -79,43 +80,32 @@ hr {
 
 /* SECTIONS */
 
-main {
-	width: 100%;
-	max-width: 1140px;
-	margin: auto;
-}
-
-section {
-	margin: 3em 0.5em;
-	width: 100%;
-	max-width: 800px;
-}
-.section-container.light {
-	min-height: 70vh;
-}
+main { width: 100%; }
+.section-container { width: 100%; }
+.section-container.light { min-height: 70vh; }
 .section-container.dark {
+	padding-top: 3em;
 	background-color: #222;
 	color: #eee;
-	width: 100vw;
 }
-
-.transition-light-dark {
-	width: 100vw;
-	
-}
-
+.transition-light-dark { width: 100%; }
 .triangle-bottom-right {
 	width: 0;
 	height: 0;
 	border-bottom: 3em solid #222;
 	border-left: 100vw solid transparent;
 }
-
+section {
+	margin: 3em 0.5em;
+	width: 100%;
+	max-width: 800px;
+}
 
 /* NAV */
 
 
 nav {
+	width: 100%;
 	display: flex;
 	margin: 0.5em;
 }

@@ -220,6 +220,10 @@ footer {
 
 /* MOBILE */
 
+@media all and (min-width: 775px) {
+	#mobile-menu-icon { display: none; }
+}
+
 @media all and (max-width: 775px) {
 	#nav-menu { display: none; }
 	.project-subsection-img,

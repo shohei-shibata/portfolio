@@ -81,7 +81,9 @@ hr {
 /* SECTIONS */
 
 main { width: 100%; }
-.section-container { width: 100%; }
+.section-container { 
+	width: 100%; 
+}
 .section-container.light { min-height: 70vh; }
 .section-container.dark {
 	padding-top: 3em;
@@ -96,8 +98,8 @@ main { width: 100%; }
 	border-left: 100vw solid transparent;
 }
 section {
-	margin: 3em 0.5em;
-	width: 100%;
+	margin: 3em 0;
+	width: 90%;
 	max-width: 800px;
 }
 
@@ -110,7 +112,7 @@ nav {
 	margin: 0.5em;
 }
 #logo-img {
-	width: 4em;
+	min-width: 4em;
 	padding-top: 4em;
 	margin-top: -4em;
 }
@@ -151,11 +153,12 @@ section#banner h1 { text-transform: none; }
 }
 .project-subsection-img {
 	width: 38%;
-	min-width: 200px;
+	min-width: 300px;
 }
 .project-subsection-description {
 	width: 55%;
-	min-width: 200px;
+	min-width: 300px;
+	height: 100%;
 }
 
 
@@ -214,3 +217,16 @@ footer {
 	margin: 0 0 0 0.3em;
 }
 
+
+/* MOBILE */
+
+@media all and (max-width: 775px) {
+	#nav-menu { display: none; }
+	.project-subsection-img,
+	.project-subsection-description {
+		width: 100%;
+	}
+	.project-subsection-description {
+		margin: 1em 0;
+	}
+}

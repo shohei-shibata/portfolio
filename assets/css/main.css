@@ -233,11 +233,12 @@ footer {
 
 /* MOBILE */
 
-@media all and (min-width: 775px) {
 	#nav-menu-mobile-icon { display: none; }
-}
 
-@media all and (max-width: 775px) {
+@media 
+	(-webkit-min-device-pixel-ratio: 1.25), 
+	(min-resolution: 120dpi),
+	(max-width: 775px) {
 	nav { justify-content: space-between; }
 	#nav-menu { 
 		display: none;
@@ -258,6 +259,7 @@ footer {
 		margin: 0;
 		padding: 0;
 	}
+	#nav-menu-mobile-icon { display: block; }
 	.nav-item {
 		margin: 1em 0;
 	}

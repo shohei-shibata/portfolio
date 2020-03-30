@@ -137,6 +137,12 @@ nav {
 #nav-icon-mobile-close {
 	display: none;
 }
+#nav-menu-mobile-toggle:checked + #nav-icon-mobile-open {
+	display: none;
+}
+#nav-menu-mobile-toggle:checked + #nav-icon-mobile-close {
+	display: inline;
+}
 .nav-item {
 	display: inline-block;
 	margin: 0 1em 0 0;
@@ -261,7 +267,9 @@ footer {
 			margin: 0;
 			padding: 0;
 		}
-		#nav-menu-mobile-icon { display: block; }
+		#nav-menu-mobile-icon { 
+			display: block;
+		}
 		.nav-item {
 			margin: 1em 0;
 		}

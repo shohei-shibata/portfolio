@@ -116,6 +116,7 @@ nav {
 	padding-top: 4em;
 	margin-top: -4em;
 }
+.nav-menu-list { z-index: 2; }
 #nav-menu ul {
 	display: flex;
 	align-items: center;
@@ -125,11 +126,13 @@ nav {
 	list-style-type: none;
 	text-transform: uppercase;
 }
+#nav-menu input { display: none; }
 #nav-menu-mobile-icon {
+	position: relative;
 	font-size: 2em;	
 	line-height: 2em;
 	margin-right: 1em;
-	z-index: 2;
+	z-index: 1;
 }
 #nav-icon-mobile-open {
 	display: inline;
@@ -137,6 +140,8 @@ nav {
 #nav-icon-mobile-close {
 	display: none;
 }
+#nav-menu-mobile-toggle:checked ~ .nav-menu-list { display: unset; }
+#nav-menu-mobile-toggle:checked ~ .toggle-me { display: none; }
 #nav-menu-mobile-toggle:checked + #nav-icon-mobile-open {
 	display: none;
 }
@@ -248,8 +253,13 @@ footer {
 	{
 		body { font-size: calc(12px + 2vw); }
 		nav { justify-content: space-between; }
-		#nav-menu { 
+		.nav-menu-list { 
 			display: none;
+		}
+		#nav-menu ul {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -258,14 +268,6 @@ footer {
 			margin: 0;
 			padding: 0;
 			background-color: #ccc;
-			z-index: 1;
-		}
-		#nav-menu ul {
-			height: 100%;
-			flex-direction: column;
-			justify-content: center;
-			margin: 0;
-			padding: 0;
 		}
 		#nav-menu-mobile-icon { 
 			display: block;

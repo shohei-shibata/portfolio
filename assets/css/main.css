@@ -126,7 +126,7 @@ nav {
 	list-style-type: none;
 	text-transform: uppercase;
 }
-#nav-menu input { display: none; }
+/*#nav-menu input { display: none; }*/
 #nav-menu-mobile-icon {
 	position: relative;
 	font-size: 2em;	
@@ -140,6 +140,7 @@ nav {
 #nav-icon-mobile-close {
 	display: none;
 }
+/* Disable toggle by CSS
 #nav-menu-mobile-toggle:checked ~ .nav-menu-list { display: unset; }
 #nav-menu-mobile-toggle:checked ~ .toggle-me { display: none; }
 #nav-menu-mobile-toggle:checked + #nav-icon-mobile-open {
@@ -148,6 +149,7 @@ nav {
 #nav-menu-mobile-toggle:checked + #nav-icon-mobile-close {
 	display: inline;
 }
+*/
 .nav-item {
 	display: inline-block;
 	margin: 0 1em 0 0;

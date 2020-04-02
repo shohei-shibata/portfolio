@@ -116,7 +116,7 @@ nav {
 	padding-top: 4em;
 	margin-top: -4em;
 }
-.nav-menu-list { z-index: 2; }
+#nav-menu-list { z-index: 2; }
 #nav-menu ul {
 	display: flex;
 	align-items: center;
@@ -255,7 +255,7 @@ footer {
 	{
 		body { font-size: calc(12px + 2vw); }
 		nav { justify-content: space-between; }
-		.nav-menu-list { 
+		#nav-menu-list { 
 			display: none;
 		}
 		#nav-menu ul {

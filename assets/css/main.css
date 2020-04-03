@@ -90,9 +90,11 @@ main { width: 100%; }
 	padding-top: 3em;
 	background-color: #222;
 	color: #eee;
+	clip-path: polygon(0 5vw, 100% 0, 100% 100%, 0% 100%);
 }
 .transition-light-dark { width: 100%; }
 .triangle-bottom-right {
+	display: none;
 	width: 0;
 	height: 0;
 	border-bottom: 3em solid #222;
@@ -119,7 +121,7 @@ nav {
 	margin-left: 1em;
 	margin-right: 1em;
 }
-#nav-menu-list { z-index: 2; }
+#nav-menu-list ul { z-index: 1; }
 #nav-menu ul {
 	display: flex;
 	align-items: center;
@@ -132,24 +134,14 @@ nav {
 /*#nav-menu input { display: none; }*/
 #nav-menu-mobile-icon {
 	position: relative;
-	font-size: 2em;	
+	font-size: calc(20px + 2vw + 2vh);	
 	line-height: 2em;
 	margin-right: 0.5em;
-	z-index: 1;
+	z-index: 2;
 }
 #nav-icon-mobile-open { display: inline; }
 #nav-icon-mobile-close { display: none; }
 #nav-menu-mobile-toggle { display: none; }
-/* Disable toggle by CSS
-#nav-menu-mobile-toggle:checked ~ .nav-menu-list { display: unset; }
-#nav-menu-mobile-toggle:checked ~ .toggle-me { display: none; }
-#nav-menu-mobile-toggle:checked + #nav-icon-mobile-open {
-	display: none;
-}
-#nav-menu-mobile-toggle:checked + #nav-icon-mobile-close {
-	display: inline;
-}
-*/
 .nav-item {
 	display: inline-block;
 	margin: 0 1em 0 0;
@@ -253,7 +245,7 @@ footer {
 	(min-resolution: 120dpi),
 	(max-width: 775px) 
 	{
-		body { font-size: calc(12px + 2vw); }
+		body { font-size: calc(20px + 0.2vw + 2vh); }
 		nav { justify-content: space-between; }
 		section, section#banner { max-width: none; }
 		#logo-img { display: none; }
@@ -264,7 +256,9 @@ footer {
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
-			position: absolute;
+			align-content: center;
+			flex-wrap: wrap;
+			position: fixed;
 			top: 0;
 			left: 0;
 			width: 100vw;
@@ -277,7 +271,7 @@ footer {
 			display: block;
 		}
 		.nav-item {
-			margin: 1em 0;
+			margin: 1em 1em;
 		}
 		.project-subsection-img,
 		.project-subsection-description {

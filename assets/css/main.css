@@ -31,11 +31,20 @@ p, a {
 small { font-size: 0.769em; }
 
 a { 
+	display: inline-block;
 	color: inherit; 
 	text-transform: uppercase;	
 	text-decoration-color: #D89F31;
 } 
+a.thick-underline { 
+	display: inline-block;
 
+	color: inherit; 
+	text-transform: uppercase;	
+	text-decoration: none;
+	border-bottom: 4px solid #D89F31;
+	line-height: 0.85em;
+}
 hr {
 	border: 0;
 	width: 80vw;
@@ -161,9 +170,9 @@ nav a { margin: 0; }
 section#banner { 
 	max-width: 800px;  
 	min-height: 60vh;
-	display: flex;
+	/*display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: center;*/
 }
 section#banner h1 { text-transform: none; }
 
@@ -180,13 +189,20 @@ section#banner h1 { text-transform: none; }
 .project-subsection-img {
 	width: 38%;
 	min-width: 300px;
+	max-width: 800px;
 }
 .project-subsection-description {
 	width: 55%;
 	min-width: 300px;
 	height: 100%;
 }
-
+.project-subsection-img.full-width,
+.project-subsection-description.full-width {
+	width: 100%;
+}
+.project-subsection-description.full-width {
+	margin: 1em 0;
+}
 
 /* CONTACT FORM */
 

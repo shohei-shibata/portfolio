@@ -65,12 +65,13 @@ hr {
 	font-family: "Bree Serif", serif;
 	font-size: 1.243em; 
 	text-transform: uppercase;
-	color: #fff;
+	/*color: #fff;*/
 	background-color: transparent;
 	border: solid 1px #D89F31;
 	border-radius: 2px;
 	padding: 0.5em 3em;
 }
+.btn.dark { color: #fff; }
 .btn:hover, 
 .btn:focus {
 	cursor: pointer;
@@ -193,8 +194,8 @@ section#banner h1 { text-transform: none; }
 #contact-form label { 
 	font-family: "Bree Serif", serif;
 	font-size: 1.243em; 
-	color: #eee;
-	opacity: 1;
+	/*color: #eee;*/
+	/*opacity: 1;*/
 	text-transform: uppercase;
 }
 .contact-form-text,
@@ -202,13 +203,17 @@ section#banner h1 { text-transform: none; }
 	background-color: transparent;
 	width: calc(100% - 4px);
 	margin-bottom: 1em;
-	border: solid 1px #eee;
+	border: solid 1px;
 	font-family: "Literata", serif; 
 	font-size: 1em;
 	line-height: 1.5em;
-	color: #eee;
-	opacity: 1;
-	caret-color: #eee;
+	/*color: #eee;*/
+	/*opacity: 1;*/
+	/*caret-color: #eee;*/
+}
+.contact-form-text.dark,
+.contact-form-textarea.dark {
+	border-color: #eee;
 }
 .contact-form-text {
 	border-left: none;

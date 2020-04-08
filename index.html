@@ -1,102 +1,63 @@
-<!doctype html>
-<html lang="en">
-	<head>
-		<link rel="stylesheet" type="text/css" href="./assets/css/fonts.css">
-		<link rel="stylesheet" type="text/css" href="./assets/css/all.min.css">
-		<link rel="stylesheet" type="text/css" href="./assets/css/main.css">
-		<script src="./assets/js/main.js"></script>
-	</head>
-	<body>
-		<nav>
-			<a href="./index.html"><img id="logo-img" src='./assets/img/Logo.png'></a>
-			<div id="nav-menu">
-				<label for="nav-menu-mobile-toggle" onclick="toggleNav()">
-					<div id="nav-menu-mobile-icon">
-						<div id="nav-icon-mobile-open"><i class="fas fa-bars"></i></div>
-						<div id="nav-icon-mobile-close"><i class="fas fa-times"></i></div>
-					</div>
-				</label>
-				<input type="checkbox" id="nav-menu-mobile-toggle">
-				<div id="nav-menu-list">
-					<ul>
-						<li><h5 class="nav-item"><a href="./index.html">Home</a></h5></li>
-						<li><h5 class="nav-item"><a href="./services.html">Services</a></h5></li>
-						<li><h5 class="nav-item"><a href="./projects.html">Projects</a></h5></li>
-						<li><h5 class="nav-item"><a href="./about.html">About</a></h5></li>
-						<li><h5 class="nav-item"><a href="./contact.html">Contact</a></h5></li>
-					</ul>
-				</div>			
+---
+layout: default
+title: Home
+---
+<div class="section-container light flex-container-col top-content">
+	<section id="banner">
+		<h1>Hello!</h1>
+		<p>I'm Shohei Shibata, a freelance web developer based in Dayton, Ohio USA.</p>
+		<a class="thick-underline" href="./about.html">More About Me</a>
+	</section>
+</div>
+<div class"transition-light-dark">
+	<div class="triangle-bottom-right"></div>
+</div>
+<div class="section-container dark flex-container-col">
+	<section id="services">
+		<h1>Your Website Builder</h1>
+		<p>Do you run a small business or a community organization? Are you looking to start a personal blog? I focus on creating websites for people like you, whether it's an entire website built from scratch, fixing up the existing one, or anything in between.</p>
+		<p>My goal is not only to provide you a clean, pleasant and highly functional website at the end, but also to give you a painless and worry-free experience in working with a web developer.</p>
+		<a class="thick-underline" href="./services.html">Learn More</a>
+	</section>
+	<section id="projects">
+		<h1>Examples</h1>
+		<h5>Project Title</h5>
+		<div class="project-subsection flex-container-row">
+			<img class="project-subsection-img" src="./assets/img/ProjectThumbnailPlaceholder.png">
+			<div class="project-subsection-description">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 			</div>
-		</nav>
-		<main class="flex-container-col">
-			<div class="section-container light flex-container-col top-content">
-				<section id="banner">
-					<h1>Hello!</h1>
-					<p>I'm Shohei Shibata, a freelance web developer based in Dayton, Ohio USA.</p>
-					<a class="thick-underline" href="./about.html">More About Me</a>
-				</section>
+			<a href="./projects/project-1.html" class="thick-underline">Learn More</a>
+		</div>
+		<h5>Project Title</h5>
+		<div class="project-subsection flex-container-row">
+			<img class="project-subsection-img" src="./assets/img/ProjectThumbnailPlaceholder.png">
+			<div class="project-subsection-description">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad     mi nim veniam.</p>
 			</div>
-			<div class"transition-light-dark">
-				<div class="triangle-bottom-right"></div>
+			<a href="./projects/project-1.html" class="thick-underline">Learn More</a>
+		</div>			
+		<h5>Project Title</h5>
+		<div class="project-subsection flex-container-row">
+			<img class="project-subsection-img" src="./assets/img/ProjectThumbnailPlaceholder.png">
+			<div class="project-subsection-description">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad     mi nim veniam.</p>
 			</div>
-			<div class="section-container dark flex-container-col">
-				<section id="services">
-					<h1>Your Website Builder</h1>
-					<p>Do you run a small business or a community organization? Are you looking to start a personal blog? I focus on creating websites for people like you, whether it's an entire website built from scratch, fixing up the existing one, or anything in between.</p>
-					<p>My goal is not only to provide you a clean, pleasant and highly functional website at the end, but also to give you a painless and worry-free experience in working with a web developer.</p>
-					<a class="thick-underline" href="./services.html">Learn More</a>
-				</section>
-				<section id="projects">
-					<h1>Examples</h1>
-					<h5>Project Title</h5>
-					<div class="project-subsection flex-container-row">
-						<img class="project-subsection-img" src="./assets/img/ProjectThumbnailPlaceholder.png">
-						<div class="project-subsection-description">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						</div>
-						<a href="./projects/project-1.html" class="thick-underline">Learn More</a>
-					</div>
-					<h5>Project Title</h5>
-					<div class="project-subsection flex-container-row">
-						<img class="project-subsection-img" src="./assets/img/ProjectThumbnailPlaceholder.png">
-						<div class="project-subsection-description">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad     mi nim veniam.</p>
-						</div>
-						<a href="./projects/project-1.html" class="thick-underline">Learn More</a>
-					</div>			
-					<h5>Project Title</h5>
-					<div class="project-subsection flex-container-row">
-						<img class="project-subsection-img" src="./assets/img/ProjectThumbnailPlaceholder.png">
-						<div class="project-subsection-description">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad     mi nim veniam.</p>
-						</div>
-						<a href="./projects/project-1.html" class="thick-underline">Learn More</a>
-					</div>
-				</section>
-				<hr>
-				<section id="contact">
-					<h1>Contact Me</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					<form id="contact-form">
-						<label for="name">Name</label><br>
-						<input class="contact-form-text dark" type="text" name="name" required><br>
-						<label for="email">Email</label><br>
-						<input class="contact-form-text dark" type="text" name="email" required><br>
-						<label for="comments">Comments</label><br>
-						<textarea class="contact-form-textarea dark" name="comments" cols="50" rows="8" required></textarea><br>
-						<input type="submit" class="btn dark contact-form-submit" value="Submit">
-					</form>
-				</section>
-			</div>
-		</main>
-		<footer>
-			<div id="footer-container">
-				<small>© 2020 Shohei Shibata. All rights reserved. </small>
-				<div>
-					<a target="_blank" href="https://github.com/shohei-shibata" class="footer-social-logo"><i class="fab fa-github fa-2x"></i></a>
-					<a target="_blank" href="https://www.linkedin.com/in/shohei-shibata-53867a41/" class="footer-social-logo"><i class="fab fa-linkedin fa-2x"></i></a>
-				</div>
-			</div>
-		</footer>
-	</body>
-<html>
+			<a href="./projects/project-1.html" class="thick-underline">Learn More</a>
+		</div>
+	</section>
+	<hr>
+	<section id="contact">
+		<h1>Contact Me</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		<form id="contact-form">
+			<label for="name">Name</label><br>
+			<input class="contact-form-text dark" type="text" name="name" required><br>
+			<label for="email">Email</label><br>
+			<input class="contact-form-text dark" type="text" name="email" required><br>
+			<label for="comments">Comments</label><br>
+			<textarea class="contact-form-textarea dark" name="comments" cols="50" rows="8" required></textarea><br>
+			<input type="submit" class="btn dark contact-form-submit" value="Submit">
+		</form>
+	</section>
+</div>

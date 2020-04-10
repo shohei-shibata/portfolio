@@ -1,6 +1,12 @@
-about:
-  text: About
-  url: /about.html
 home:
   text: Home
   url: /
+about:
+  text: About
+  url: /about.html
+services:
+  text: Services
+  url: /services.html
+projects:
+  text: Work Examples
+  url: /projects.html

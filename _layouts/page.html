@@ -4,10 +4,11 @@ layout: default
 
 <div class="section-container light flex-container-col">
 	<section class="top-content">
+		<h1>{{ page.title }}</h1>
 		{{ content }}	
 		{% if page.links %}
 			{% for link in page.links %}
-				{% assign data = site.data.links.about %}
+				{% assign data = site.data.links[link] %}
 				<a class="thick-underline" href={{ data.url }}>{{ data.text }}</a><br>
 			{% endfor %}
 		{% endif %}

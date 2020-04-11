@@ -1,12 +1,12 @@
 home:
-  text: Home
+  text: Back To Home
   url: /
 about:
-  text: About
+  text: More About Me
   url: /about.html
 services:
-  text: Services
+  text: Go To Services
   url: /services.html
 projects:
-  text: Work Examples
+  text: View Sample Projects
   url: /projects.html

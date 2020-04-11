@@ -1,0 +1,23 @@
+---
+layout: page
+title: Projects
+links:
+- services
+- home
+---
+
+<p>Here are some examples of my recent work.<p>
+
+{% for post in site.posts %}
+  {% for category in post.categories %}
+    {% if category == "projects" %}
+      {% include project-preview.html 
+        title=post.title
+        url=post.url
+        img=post.img
+        excerpt=post.excerpt
+      %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+

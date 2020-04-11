@@ -14,50 +14,30 @@ title: Home
 </div>
 <div class="section-container dark flex-container-col">
 	<section id="services">
-		<h1>Your Website Builder</h1>
+		<h1>All Your Website Needs</h1>
 		<p>Do you run a small business or a community organization? Are you looking to start a personal blog? I focus on creating websites for people like you, whether it's an entire website built from scratch, fixing up the existing one, or anything in between.</p>
 		<p>My goal is not only to provide you a clean, pleasant and highly functional website at the end, but also to give you a painless and worry-free experience in working with a web developer.</p>
 		<a class="thick-underline" href="./services.html">Learn More</a>
 	</section>
 	<section id="projects">
 		<h1>Examples</h1>
-		<h5>Project Title</h5>
-		<div class="project-subsection flex-container-row">
-			<img class="project-subsection-img" src="./assets/img/ProjectThumbnailPlaceholder.png">
-			<div class="project-subsection-description">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-			</div>
-			<a href="./projects/project-1.html" class="thick-underline">Learn More</a>
-		</div>
-		<h5>Project Title</h5>
-		<div class="project-subsection flex-container-row">
-			<img class="project-subsection-img" src="./assets/img/ProjectThumbnailPlaceholder.png">
-			<div class="project-subsection-description">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad     mi nim veniam.</p>
-			</div>
-			<a href="./projects/project-1.html" class="thick-underline">Learn More</a>
-		</div>			
-		<h5>Project Title</h5>
-		<div class="project-subsection flex-container-row">
-			<img class="project-subsection-img" src="./assets/img/ProjectThumbnailPlaceholder.png">
-			<div class="project-subsection-description">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad     mi nim veniam.</p>
-			</div>
-			<a href="./projects/project-1.html" class="thick-underline">Learn More</a>
-		</div>
+    {% for post in site.posts %}
+      {% for category in post.categories %}
+        {% if category == "projects" %}
+          {% include project-preview.html 
+            title=post.title
+            url=post.url
+            img=post.img
+            excerpt=post.excerpt
+          %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
 	</section>
 	<hr>
 	<section id="contact">
 		<h1>Contact Me</h1>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-		<form id="contact-form">
-			<label for="name">Name</label><br>
-			<input class="contact-form-text dark" type="text" name="name" required><br>
-			<label for="email">Email</label><br>
-			<input class="contact-form-text dark" type="text" name="email" required><br>
-			<label for="comments">Comments</label><br>
-			<textarea class="contact-form-textarea dark" name="comments" cols="50" rows="8" required></textarea><br>
-			<input type="submit" class="btn dark contact-form-submit" value="Submit">
-		</form>
+	  {% include contact-form.html %}	
 	</section>
 </div>

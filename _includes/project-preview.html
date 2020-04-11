@@ -1,8 +1,10 @@
-<h5>Project Title</h5>
+<h5>{{ include.title }}</h5>
 <div class="project-subsection flex-container-row">
-  <img class="project-subsection-img" src="./assets/img/ProjectThumbnailPlaceholder.png">
+  <a href="{{ include.url }}">
+    <img class="project-subsection-img" src="/assets/img/{{ include.img }}">
+  </a>
   <div class="project-subsection-description">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    {{ include.excerpt }}
   </div>
-  <a class="thick-underline" href="./projects.html">Learn More</a>
+  <a class="thick-underline" href="{{ include.url }}">Learn More</a>
 </div>

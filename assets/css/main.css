@@ -74,15 +74,14 @@ hr {
 
 .btn {
 	font-family: "Bree Serif", serif;
+  color: inherit;
 	font-size: 1.243em; 
 	text-transform: uppercase;
-	/*color: #fff;*/
 	background-color: transparent;
 	border: solid 2px #D89F31;
 	border-radius: 2px;
 	padding: 0.5em 3em;
 }
-.btn.dark { color: #fff; }
 .btn:hover, 
 .btn:focus {
 	cursor: pointer;
@@ -106,6 +105,7 @@ main {
 	background-color: #222;
 	color: #eee;
 	clip-path: polygon(0 5vw, 100% 0, 100% 100%, 0% 100%);
+  border-color: #eee;
 }
 section {
 	margin: 3em 0;
@@ -208,6 +208,14 @@ section#banner h1 { text-transform: none; }
 	margin: 1em 0;
 }
 
+
+/* POSTS */
+
+.post-banner-img {
+  width: 100%;
+  margin-bottom: 3em;
+}
+
 /* CONTACT FORM */
 
 
@@ -220,16 +228,16 @@ section#banner h1 { text-transform: none; }
 }
 .contact-form-text,
 .contact-form-textarea {
+  color: inherit;
 	background-color: transparent;
 	width: calc(100% - 4px);
 	margin-bottom: 1em;
 	border: solid 1px;
 	font-family: "Literata", serif; 
 	font-size: 1em;
-	line-height: 1.5em;
-	/*color: #eee;*/
 	/*opacity: 1;*/
 	/*caret-color: #eee;*/
+  border-color: currentColor;
 }
 .contact-form-text.dark,
 .contact-form-textarea.dark {

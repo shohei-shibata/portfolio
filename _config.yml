@@ -53,3 +53,5 @@ plugins:
 #   - vendor/ruby/
 
 excerpt_separator: <!--more-->
+
+destination: docs/

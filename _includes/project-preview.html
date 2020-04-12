@@ -1,10 +1,10 @@
 <h5>{{ include.title }}</h5>
 <div class="project-subsection flex-container-row">
   <a href="{{ include.url }}">
-    <img class="project-subsection-img" src="/assets/img/{{ include.img }}">
+    <img class="project-subsection-img" src="{{ site.url }}/assets/img/{{ include.img }}">
   </a>
   <div class="project-subsection-description">
     {{ include.excerpt }}
   </div>
-  <a class="thick-underline" href="{{ include.url }}">Learn More</a>
+  <a class="thick-underline" href="{{ include.url }}">More Info</a>
 </div>

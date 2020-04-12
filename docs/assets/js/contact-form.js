@@ -4,15 +4,17 @@ window.onload = function() {
   console.log("window.onload");
   const contactForm = document.getElementById('contact-form');
 
-  contactForm.addEventListener('submit', function(event) {
-    console.log("sending email");
-    event.preventDefault();
-    // generate the contact number value
-    this.contact_number.value = Math.random() * 100000 | 0;
-    //emailjs.sendForm('gmail_dev', 'freelance_contact_form', this);
+  if (contactForm) {
+    contactForm.addEventListener('submit', function(event) {
+      console.log("sending email");
+      event.preventDefault();
+      // generate the contact number value
+      this.contact_number.value = Math.random() * 100000 | 0;
+      //emailjs.sendForm('gmail_dev', 'freelance_contact_form', this);
 
-    resetForm(contactForm);
-  });
+      resetForm(contactForm);
+    });
+  };
 
 }
 

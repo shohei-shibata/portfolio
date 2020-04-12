@@ -68,7 +68,10 @@ hr {
 	justify-content: center;
 	align-items: center;
 }
-
+.spacer {
+  background: transparent;
+  height: 3em;
+}
 
 /* BUTTONS */
 
@@ -193,7 +196,6 @@ section#banner h1 { text-transform: none; }
 	width: 38%;
 	min-width: 300px;
 	max-width: 1024px;
-	margin-bottom: 1.5em;
 }
 .project-subsection-description {
 	width: 55%;
@@ -238,6 +240,7 @@ section#banner h1 { text-transform: none; }
 	/*opacity: 1;*/
 	/*caret-color: #eee;*/
   border-color: currentColor;
+  outline: none;
 }
 .contact-form-text.dark,
 .contact-form-textarea.dark {
@@ -287,7 +290,7 @@ footer {
 @media 
 	(-webkit-min-device-pixel-ratio: 1.25), 
 	(min-resolution: 120dpi),
-	(max-width: 775px) 
+	(max-width: 875px) 
 	{
 		body { font-size: calc(20px + 0.2vw + 2vh); }
 		nav { justify-content: space-between; }
@@ -317,6 +320,7 @@ footer {
 		.nav-item {
 			margin: 1em 1em;
 		}
+    .project-subsection a,
 		.project-subsection-img,
 		.project-subsection-description {
 			width: 100%;

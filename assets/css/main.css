@@ -137,6 +137,12 @@ nav a { margin: 0; }
 	margin-left: 1em;
 	margin-right: 1em;
 }
+#logo-container {
+  transition: all 0.3s;
+}
+#logo-container:hover {
+  transform: rotateZ(180deg);
+}
 #nav-menu-list ul { z-index: 1; }
 #nav-menu ul {
 	display: flex;

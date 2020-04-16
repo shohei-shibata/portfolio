@@ -8,5 +8,5 @@ services:
   text: Go To Services
   url: /services.html
 projects:
-  text: View Sample Projects
+  text: Go To Projects
   url: /projects.html

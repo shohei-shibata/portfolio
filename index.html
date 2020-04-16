@@ -4,8 +4,8 @@ title: Home
 ---
 <div class="section-container light flex-container-col top-content">
 	<section id="banner">
-		<h1>Hello!</h1>
-		<p>I'm Shohei Shibata, a freelance web developer based in Dayton, Ohio USA.</p>
+    {% capture banner-text %}{% include banner-text.md %}{% endcapture %}
+    {{ banner-text | markdownify }}	
 		<a class="thick-underline" href="{{ site.url }}/about.html">More About Me</a>
 	</section>
 </div>
@@ -15,9 +15,8 @@ title: Home
 <div class="section-container dark flex-container-col">
   <div class="spacer"></div>
 	<section id="services">
-		<h1>All Your Website Needs</h1>
-		<p>Do you run a small business or a community organization? Are you looking to start a personal blog? I focus on creating websites for people like you, whether it's an entire website built from scratch, fixing up the existing one, or anything in between.</p>
-		<p>My goal is not only to provide you a clean, pleasant and highly functional website at the end, but also to give you a painless and worry-free experience in working with a web developer.</p>
+    {% capture services-short %}{% include services-short.md %}{% endcapture %}
+    {{ services-short | markdownify }}
 		<a class="thick-underline" href="{{ site.url }}/services.html">Learn More</a>
 	</section>
 	<hr>
@@ -39,7 +38,7 @@ title: Home
 	<hr>
 	<section id="contact">
 		<h1>Contact Me</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		<p>Please use the form below to get in touch!</p>
 	  {% include contact-form.html %}	
 	</section>
 </div>

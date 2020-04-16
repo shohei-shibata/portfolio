@@ -52,7 +52,7 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-excerpt_separator: <!--more-->
+#excerpt_separator: <!--more-->
 
 destination: docs/
 

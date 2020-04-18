@@ -1,13 +1,12 @@
 {
-  "name": "freelance-portfolio",
-  "version": "0.0.0",
-  "description": "A web development portfolio describing the services offered, example projects, and contact information.",
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio page for Shohei Shibata, a freelance web developer",
   "main": "index.js",
-  "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.12.1"
-  },
-  "devDependencies": {},
   "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,15 +14,22 @@
     "url": "git+https://github.com/shohei-shibata/portfolio.git"
   },
   "keywords": [
-    "web-development",
+    "web",
+    "developer",
     "portfolio",
-    "dayton",
-    "ohio"
+    "Dayton",
+    "Ohio",
+    "USA"
   ],
   "author": "Shohei Shibata",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/shohei-shibata/portfolio/issues"
   },
-  "homepage": "https://github.com/shohei-shibata/portfolio#readme"
+  "homepage": "https://github.com/shohei-shibata/portfolio#readme",
+  "dependencies": {
+    "next": "^9.3.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
 }

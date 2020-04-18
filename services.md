@@ -3,28 +3,24 @@ layout: page
 title: Services
 links:
 - projects
+- contact
 - home
 ---
 
-### Discuss Your Needs
+Let's create an effective website that's also pleasant to look at. I'm here to make the process stress-free for you.
 
-Let's hear what your goals are, and we'll figure out how we can go about it. Below are all the pieces of a website development, and I am happy to take care of all of them, or a small piece. Depending on what your needs are.
+It all begins with a casual chat. Let's see what your goals are, and figure out how to get there. This part is always free, so don't hesitate to [send me a message!]({{ site.url }}/contact.html)
 
-The good thing is, this part is always free!
+I am able to cover all aspects of your website, including
 
-### Design
+* Design
+* Development
+* Maintenance
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Of course, the work will be tailored to fit your needs. 
 
-### Develop
+You are already happy with the design of your existing website? Great! Let's spend our precious time elsewhere. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Just need small improvements or bug fixes? Let me know! I'll see if I can help.
 
-### Deploy
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-### ...And Everything Else
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+On the [Projects page]({{ site.url }}/projects.html) you will find some examples of my recent work. Please check them out!

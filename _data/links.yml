@@ -10,3 +10,6 @@ services:
 projects:
   text: Go To Projects
   url: /projects.html
+contact:
+  text: Contact Me
+  url: /contact.html

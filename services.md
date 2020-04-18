@@ -7,9 +7,9 @@ links:
 - home
 ---
 
-Let's create an effective website that's also pleasant to look at. I'm here to make the process stress-free for you.
+Let's create a website. Let's make it so that it helps you achive your goals, but at the same time provide an amazing experience for the visitor. I'm here to make the whole process stress-free for you.
 
-It all begins with a casual chat. Let's see what your goals are, and figure out how to get there. This part is always free, so don't hesitate to [send me a message!]({{ site.url }}/contact.html)
+It all begins with a casual chat. Tell me what your goals are and we'll figure out how to get there. This part is always free, so don't hesitate to [send me a message!]({{ site.url }}/contact.html)
 
 I am able to cover all aspects of your website, including
 
@@ -23,4 +23,4 @@ You are already happy with the design of your existing website? Great! Let's spe
 
 Just need small improvements or bug fixes? Let me know! I'll see if I can help.
 
-On the [Projects page]({{ site.url }}/projects.html) you will find some examples of my recent work. Please check them out!
+To give you a better idea of what I can do, I've put up some examples on the [Projects page]({{ site.url }}/projects.html). Please check them out!

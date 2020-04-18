@@ -1,5 +1,5 @@
-<h5>{{ include.title }}</h5>
 <div class="project-subsection flex-container-row">
+  <h5>{{ include.title }}</h5>
   <div class="project-subsection-img-container">
     <a href="{{ include.url }}">
       <img class="project-subsection-img" src="{{ site.url }}/assets/img/{{ include.img }}">
@@ -8,5 +8,5 @@
   <div class="project-subsection-description">
     {{ include.excerpt }}
   </div>
-  <a class="thick-underline" href="{{ include.url }}">More Info</a>
+  <a class="project-subsection-btn-container" href="{{ include.url }}"><button class="btn btn-small">More Info</button></a>
 </div>

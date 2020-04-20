@@ -1,6 +1,5 @@
 import Layout from '../components/Layout';
 import ContactForm from '../components/ContactForm';
-import '../assets/css/main.css';
 
 const Index = () => (
   <Layout>

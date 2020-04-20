@@ -4,7 +4,7 @@ const Nav = () => (
       <a href="/index.html"><img id="logo-img" src='/img/Logo.png' /></a>
     </div>
     <div id="nav-menu">
-      <label htmlFor="nav-menu-mobile-toggle" onclick="toggleNav()">
+      <label htmlFor="nav-menu-mobile-toggle" onClick={toggleNav()}>
         <div id="nav-menu-mobile-icon">
           <div id="nav-icon-mobile-open"><i className="fas fa-bars"></i></div>
           <div id="nav-icon-mobile-close"><i className="fas fa-times"></i></div>

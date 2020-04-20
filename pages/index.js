@@ -1,8 +1,7 @@
-import Layout from '../components/Layout';
 import ContactForm from '../components/ContactForm';
 
 const Index = () => (
-  <Layout>
+  <>
     <div className="section-container light flex-container-col top-content">
       <section id="banner">
         <h1>Hello!</h1>
@@ -41,7 +40,7 @@ const Index = () => (
         <ContactForm />
       </section>
     </div>
-  </Layout>
+  </>
 );
 
 export default Index;

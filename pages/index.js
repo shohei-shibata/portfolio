@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import ContactForm from '../components/ContactForm';
 
 const Index = () => (
@@ -5,7 +6,10 @@ const Index = () => (
     <div className="section-container light flex-container-col top-content">
       <section id="banner">
         <h1>Hello!</h1>
-        <p>I'm Shohei Shibata, a freelance web developer based in Dayton, Ohio USA.<a className="thick-underline" href="/about.html">More About Me</a></p>
+        <p>I'm Shohei Shibata, a freelance web developer based in Dayton, Ohio USA.</p>
+        <Link href="/about">
+          <a className="thick-underline">More About Me</a>
+        </Link>
       </section>
     </div>
     <div className="transition-light-dark">

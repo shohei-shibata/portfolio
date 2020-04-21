@@ -5,7 +5,7 @@ const Layout = props => (
   <>
     <HeadContents />
     <Nav />
-    <main class="flex-container-col">
+    <main className="flex-container-col">
       { props.children }
     </main>
   </>

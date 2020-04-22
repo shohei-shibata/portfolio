@@ -12,9 +12,6 @@ const Index = () => (
         </Link>
       </section>
     </div>
-    <div className="transition-light-dark">
-      <div className="triangle-bottom-right"></div>
-    </div>
     <div className="section-container dark flex-container-col">
       <div className="spacer"></div>
       <section id="services">

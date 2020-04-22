@@ -47,6 +47,7 @@ a.thick-underline {
 	text-decoration: none;
 	border-bottom: 0.2em solid #D89F31;
 	line-height: 0.85em;
+  margin: 0;
 }
 a.thick-underline::before {
 	content: ">>";
@@ -118,8 +119,7 @@ img {
 main { 
 	width: 90vw; 
   max-width: 800px;
-	min-height: 100vh;
-  margin: 0 auto;
+  margin: 0 auto 3em auto;
   animation: fade-in 1s;
 }
 .section-container { 
@@ -344,7 +344,7 @@ footer {
 	max-width: 50vw;
 }
 .footer-social-logo {
-	margin: 0 0 0 0.3em;
+	margin: 0 0 0 0.5em;
   transition: all 0.3s;
 }
 .footer-social-logo:hover,
